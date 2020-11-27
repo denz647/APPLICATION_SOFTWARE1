@@ -5,7 +5,7 @@ create table department(code int primary key,
 Title char(20),Dept_name char(20) unique,Dept_id varchar(10),
 salary int CHECK(salary>2000));
 
-insert into department values(1,"A","CS Department","Cs301",4500);
+insert into department values(1,"A","CS Department","CS301",4500);
 insert into department values(2,"B","EC Department","EC344",7000);
                  
 --QUESTION NO:b
