@@ -1,9 +1,12 @@
 use studentdetails;
+--CREATE TABLE CLASS
 create table class(id int,name char(10));
+--INSERT VALUES TO TABLE CLASS
 insert into class (id,name)values(1,"amit"),(2,"alok"),(3,"aparna"),(4,"adam");
 select * from class;
 
 insert into class values (5,"ronny");
+--USING COMMIT COMMAND
 commit;
 
 update class set name="abhiram" where id="5";
