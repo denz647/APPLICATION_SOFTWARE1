@@ -1,4 +1,4 @@
-
+--Question no:1
 CREATE TABLE Employee(
     code CHAR(4) PRIMARY KEY,
     name VARCHAR(80),
@@ -14,16 +14,17 @@ VALUES
 ('kr13','Karthik','1990-08-09','Clerk',58000.78),
 ('jk1','jalal','1969-04-11','Product Manager',159000.18);
 
-
+-- Question no:2
 SELECT * FROM Employee ORDER BY name DESC;
 
-
+--Question No:3
 CREATE TABLE Deposit(
     baccno BIGINT,
     branch_name VARCHAR(80),
     amount FLOAT
 );
 
+--Question no:4
 INSERT INTO Deposit(baccno, branch_name, amount)
 VALUES
 (1990001,'kottarakara',290000.25),
