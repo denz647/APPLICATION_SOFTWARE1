@@ -1,3 +1,9 @@
+--EXP NO:10
+--Write a PL/SQL block to illustrate the use of implicit cursor
+
+
+
+
 CREATE TABLE EMP (
   name VARCHAR(10),
   dob DATE,
