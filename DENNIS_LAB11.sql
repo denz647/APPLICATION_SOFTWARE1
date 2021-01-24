@@ -1,3 +1,8 @@
+--EXP NO:11
+--Write a database trigger that prevents changes to emp table from 5pm to 12am(statement level trigge
+
+
+
 CREATE TABLE EMPLOYEE (
 CODE VARCHAR(10),
 NAME CHAR(25),
